@@ -91,5 +91,11 @@
             <i class="pi pi-star-fill"></i>
         </a>
     </ng-container>
+  <ng-container *ngSwitchCase="'BDLMiner'">
+  <a (click)="cancelClick($event)"
+     href="https://github.com/bdlglua/BDLMinerV1"
+     target="_blank">BDLMiner
+  </a>
+</ng-container>
     <ng-container *ngSwitchDefault>{{userAgent}}</ng-container>
 </ng-container>
